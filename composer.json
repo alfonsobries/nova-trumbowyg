@@ -1,0 +1,30 @@
+{
+    "name": "alfonsobries/nova-trumbowyg",
+    "description": "A Laravel Trumbowyg Nova field.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "trumbowyg"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alfonsobries\\NovaTrumbowyg\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Alfonsobries\\NovaTrumbowyg\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
