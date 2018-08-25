@@ -24,7 +24,7 @@ NovaFroalaEditor::make('Description')
 ```
 
 ## Screenshot
-Visit https://github.com/alfonsobries/nova-trumbowyg
+![Trumbowyg editor](./docs/sh1.png)
 
 ## License
 The MIT License (MIT). Please see [License File](LICENSE) for more information.
