@@ -19,7 +19,7 @@ NovaTrumbowyg::make('Field Name')
 You can pass any existing Trumbowyg option. Consult the [Trumbowyg documentation](https://alex-d.github.io/Trumbowyg/documentation/#basic-options) to view the list of all the available options.
 
 ```php
-NovaFroalaEditor::make('Description')
+NovaTrumbowyg::make('Description')
     ->options(['btns' => [['bold', 'italic'], ['link']]])
 ```
 
